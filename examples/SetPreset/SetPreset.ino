@@ -19,5 +19,6 @@ void setup()
 
 void loop()
 {
-  Led.SetPresetFunction(40, 100);
+  Led.SetPresetFunction(40,100);
+  delay(10000);
 }
