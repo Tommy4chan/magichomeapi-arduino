@@ -5,9 +5,6 @@ MagicHome Wifi protocol for Arduino like boards.
 
 This library was designed for use with devices compatible with the MagicHome Wifi app.
 
-
-
-
 ## It currently supports
 
 - RGB Controllers
@@ -18,7 +15,6 @@ This library was designed for use with devices compatible with the MagicHome Wif
 - Turning devices on and off
 - Setting colors (rgb, rgbw) + brightness
 - Sending preset functions
-
 
 ## Usage/Examples
 
@@ -66,11 +62,9 @@ preset_number:
 Led.SetPresetFunction(preset_number, speed);
 ```
 
-
 ## Feedback
 
 If you have any feedback, all contact information is in my github profile
-
 
 ## Author
 

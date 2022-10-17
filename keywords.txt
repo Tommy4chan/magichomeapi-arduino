@@ -1,0 +1,11 @@
+MagicHomeApi KEYWORD1
+ClientConnect KEYWORD2
+ClientDisconnect KEYWORD2
+ClientGetResponse KEYWORD2
+TurnOn KEYWORD2
+TurnOff KEYWORD2
+SetColor KEYWORD2
+SetPresetFunction KEYWORD2
+SendData KEYWORD2
+CheckRange KEYWORD2
+BrightnessLevel KEYWORD2
