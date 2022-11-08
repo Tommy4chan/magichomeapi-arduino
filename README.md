@@ -18,7 +18,7 @@ This library was designed for use with devices compatible with the MagicHome Wif
 
 ## Usage/Examples
 
-Create new object
+Create new object (You may find ip of controller in your router admin panel)
 ```cpp
 MagicHomeApi Led("IP Address", 5577);
 ```
