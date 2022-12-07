@@ -14,7 +14,7 @@ This library was designed for use with devices compatible with the MagicHome Wif
 ## Commands
 
 - Turning devices on and off
-- Setting colors (rgb, rgbw,ARGB) + brightness
+- Setting colors (rgb, rgbw, ARGB) + brightness
 - Sending preset functions
 
 ## Usage/Examples
