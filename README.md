@@ -9,11 +9,12 @@ This library was designed for use with devices compatible with the MagicHome Wif
 
 - RGB Controllers
 - RGB+WW Controllers
+- ARGB Controllers
 
 ## Commands
 
 - Turning devices on and off
-- Setting colors (rgb, rgbw) + brightness
+- Setting colors (rgb, rgbw,ARGB) + brightness
 - Sending preset functions
 
 ## Usage/Examples
@@ -34,6 +35,7 @@ Set led color (r, g, b, w must be in range from 0 to 255, if not there is filter
 (brightness must be in range from 0 to 100)
 ```cpp
 Led.SetColor(r, g, b, w, brightness);
+Led.SetColorARGB(r, g, b, brightness);
 ```
 Set preset function (speed must be in range from 0 to 100)
 
@@ -60,6 +62,7 @@ preset_number:
 - 56 = Seven color jumping
 ```cpp
 Led.SetPresetFunction(preset_number, speed);
+Led.SetPresetFunctionARGB(preset_number, speed, brightness);
 ```
 
 ## Feedback
@@ -70,5 +73,8 @@ If you have any feedback, all contact information is in my github profile
 
 - [@Tommy4chan](https://github.com/Tommy4chan)
 
-Copyright 2022 Anton Panurin (Tommy4chan). Licensed under MIT.
+## Contributors
 
+- [@Raphitech](https://github.com/Raphitech)
+
+Copyright 2022 Anton Panurin (Tommy4chan). Licensed under MIT.

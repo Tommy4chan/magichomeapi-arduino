@@ -6,6 +6,8 @@ TurnOn KEYWORD2
 TurnOff KEYWORD2
 SetColor KEYWORD2
 SetPresetFunction KEYWORD2
+SetColorARGB KEYWORD2
+SetPresetFunctionARGB KEYWORD2
 SendData KEYWORD2
 CheckRange KEYWORD2
 BrightnessLevel KEYWORD2
