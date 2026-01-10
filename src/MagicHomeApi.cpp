@@ -111,5 +111,5 @@ int MagicHomeApi::CheckRange(int min, int max, int value){
 
 int MagicHomeApi::BrightnessLevel(int value, int brightness){
   return value * brightness / 100;
-
 }
+
